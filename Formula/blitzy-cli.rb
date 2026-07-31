@@ -5,7 +5,7 @@
 class BlitzyCli < Formula
   desc "Unofficial CLI for the Blitzy platform API"
   homepage "https://github.com/nexdrew/blitzy-cli"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   livecheck do
@@ -15,23 +15,23 @@ class BlitzyCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.1.0/blitzy-darwin-arm64"
-      sha256 "5b8c00ad5bf4bdc922e0b658c7a8bfa15ebb3921f5728a88e8aadbb357c6960e"
+      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.2.0/blitzy-darwin-arm64"
+      sha256 "55608b32f8f274f86632bbac47a8e62c1d4d6c75e052dac42cc01d7c5987eb5f"
     end
     on_intel do
-      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.1.0/blitzy-darwin-x64"
-      sha256 "155816731554049052357540728ac6a87da8451cd29b206c1d406c3e7fce2d0a"
+      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.2.0/blitzy-darwin-x64"
+      sha256 "60881a73f93bbd32df49606a413356b84a4567608366cb3c89b47bca5be6c948"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.1.0/blitzy-linux-arm64"
-      sha256 "6c6ea3ba6981a90b6f39c4a3cc11370fbf4ad2518bd4b5302f1e2464cb3c7d76"
+      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.2.0/blitzy-linux-arm64"
+      sha256 "0b5d2d5797f8d7642b87430780952da19331516915e4911836edd5cccadc309b"
     end
     on_intel do
-      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.1.0/blitzy-linux-x64"
-      sha256 "ce217090b32bd17e0f0eb7cfb14d3bd5a5345964a5a5d5f237f61417e9285ace"
+      url "https://github.com/nexdrew/blitzy-cli/releases/download/v1.2.0/blitzy-linux-x64"
+      sha256 "ecc7115abac392d4412c6c62495575a75fb88a44496d845f6ed3329810e2e382"
     end
   end
 
