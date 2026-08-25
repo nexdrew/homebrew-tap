@@ -14,5 +14,9 @@ changes belong in the generator.
 Every binary the formulae install carries a GitHub build-provenance attestation:
 
 ```sh
-gh attestation verify "$(brew --prefix)/bin/blitzy" --repo nexdrew/blitzy-cli
+gh attestation verify "$(command -v blitzy)" --repo nexdrew/blitzy-cli
 ```
+
+(`command -v blitzy` resolves the brew symlink to the installed binary, and — unlike
+`$(brew --prefix)/bin/blitzy` — it works on machines with more than one Homebrew
+prefix, e.g. an Intel brew at `/usr/local` alongside `/opt/homebrew`.)
